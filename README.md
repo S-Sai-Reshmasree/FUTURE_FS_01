@@ -13,6 +13,7 @@ https://s-sai-reshmasree.github.io/FUTURE_FS_01/
 - HTML
 - CSS
 - JavaScript
+- Node.js
 
 #🎯 Features
 - Responsive modern UI design
