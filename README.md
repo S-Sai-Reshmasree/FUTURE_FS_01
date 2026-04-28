@@ -8,6 +8,7 @@ The goal of this project is to present myself professionally to recruiters, clie
 
 #🚀 Live Demo
 https://s-sai-reshmasree.github.io/FUTURE_FS_01/
+
 #Tech Stack
 - HTML5
 - CSS3
@@ -18,11 +19,6 @@ https://s-sai-reshmasree.github.io/FUTURE_FS_01/
 - Hero section with introduction
 - About Me section
 - Projects showcase section
-- Resume section with downloadable/view option
+- Resume section with view option
 - Contact form with basic JavaScript validation
 - Clean dark theme design
-- Mobile-friendly layout
-
----
-
-## 📁 Project Structure
