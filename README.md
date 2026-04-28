@@ -5,8 +5,9 @@ This is portfolio website built as part of my Full Stack Development journey.
 It showcases my skills, projects, resume, and provides a way to contact me.
 
 The goal of this project is to present myself professionally to recruiters, clients, and hiring managers.
-#🚀 Live Demo
 
+#🚀 Live Demo
+https://s-sai-reshmasree.github.io/FUTURE_FS_01/
 #Tech Stack
 - HTML5
 - CSS3
