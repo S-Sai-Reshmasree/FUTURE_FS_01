@@ -10,8 +10,8 @@ The goal of this project is to present myself professionally to recruiters, clie
 https://s-sai-reshmasree.github.io/FUTURE_FS_01/
 
 #Tech Stack
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 #🎯 Features
