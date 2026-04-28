@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIDHIREDDI SAI RESHMA SREE | Full Stack Developer</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #0a0f1c;
+      color: #e2e8f0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 50px;
+      background: #020617;
+      position: sticky;
+      top: 0;
+    }
+
+    nav h2 { color: #38bdf8; }
+
+    nav ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+
+    nav a {
+      color: #e2e8f0;
+      text-decoration: none;
+    }
+
+    nav a:hover { color: #38bdf8; }
+
+    section {
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    h2 { color: #38bdf8; margin-bottom: 20px; }
+
+    /* HERO */
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: radial-gradient(circle, #1e293b, #020617);
+    }
+
+    .hero h1 { font-size: 3rem; color: #38bdf8; }
+
+    .btn {
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: linear-gradient(135deg, #38bdf8, #6366f1);
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      box-shadow: 0 0 10px #38bdf8;
+    }
+
+    /* PROJECTS */
+    .project-grid {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #020617;
+      border: 1px solid #1e293b;
+      padding: 20px;
+      width: 260px;
+      border-radius: 10px;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 15px rgba(56,189,248,0.3);
+    }
+
+    /* RESUME */
+    .resume-box {
+      max-width: 700px;
+      margin: auto;
+      background: #020617;
+      padding: 30px;
+      border-radius: 10px;
+      border: 1px solid #1e293b;
+    }
+
+    .resume-box h3 {
+      color: #38bdf8;
+      margin-top: 15px;
+    }
+
+    /* CONTACT */
+    input, textarea {
+      width: 260px;
+      padding: 10px;
+      margin: 10px;
+      background: #020617;
+      border: 1px solid #1e293b;
+      color: white;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: linear-gradient(135deg, #38bdf8, #6366f1);
+      border: none;
+      color: white;
+    }
+
+    footer {
+      background: #020617;
+      padding: 20px;
+      color: #94a3b8;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>MyPortfolio</h2>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>SIDHIREDDI SAI RESHMA SREE</h1>
+  <p>Full Stack Developer | React | Node.js</p>
+  <a href="#projects" class="btn">View Projects</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>I build modern web applications with clean UI and scalable backend systems.
+    I specialize in frontend development using HTML, CSS, JavaScript, and React.  
+    I am continuously learning backend technologies like Node.js and databases to become a complete full-stack developer.  
+    My goal is to build real-world projects that solve practical problems and improve user experience.
+  </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+
+    <!-- Completed Project -->
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>A responsive personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+    </div>
+
+    <!-- Ongoing Project -->
+    <div class="card">
+      <h3>E-COMMERCE WEBSITE (Ongoing)</h3>
+      <p>A full-stack task management application with user authentication and CRUD features using React and Node.js.</p>
+    </div>
+
+    <!-- Ongoing Project -->
+    <div class="card">
+      <h3>CHAT Application (Ongoing)</h3>
+      <p>A real-time weather application using APIs to display live weather updates based on user location.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume">
+  <h2>My Resume</h2>
+
+  <div class="resume-box">
+    <h3>Skills</h3>
+    <p>HTML, CSS, JavaScript, React, Node.js, MongoDB</p>
+
+    <h3>Education</h3>
+    <p>B.Tech in Computer Science</p>
+
+    <h3>Experience</h3>
+    <p>Full Stack Intern</p>
+
+    <br>
+    <a href="resume.pdf" target="_blank" class="btn">👁 View Resume</a>
+    
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form onsubmit="sendMsg(event)">
+    <input type="text" placeholder="Name" required><br>
+    <input type="email" placeholder="Email" required><br>
+    <textarea placeholder="Message" required></textarea><br>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 RESHMA</p>
+</footer>
+
+<script>
+function sendMsg(e){
+  e.preventDefault();
+  alert("Message sent 🚀");
+}
+</script>
+
+</body>
+</html>
